@@ -1,0 +1,26 @@
+{
+  "name": "url-shortener",
+  "version": "1.0.0",
+  "description": "A Nodejs based URL Shortener.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anmol-Srv/URL-Shortener.git"
+  },
+  "author": "Anmol Srivastava",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Anmol-Srv/URL-Shortener/issues"
+  },
+  "homepage": "https://github.com/Anmol-Srv/URL-Shortener#readme",
+  "dependencies": {
+    "express": "^4.19.2",
+    "mongoose": "^8.5.1",
+    "nanoid": "^5.0.7",
+    "nodemon": "^3.1.4"
+  }
+}
